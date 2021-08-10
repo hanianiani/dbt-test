@@ -19,3 +19,13 @@ models:
             tests:
                 - unique
                 - not_null
+    - name: film_count_per_actor
+      description: "Total number of films per actor"
+      columns:
+          - name: first_name
+            description: "Actor First Name"
+          - name: last_name
+            description: "Actor Last Name"
+          - name: count
+            description: "Total N of Films"
+            type: smallint
