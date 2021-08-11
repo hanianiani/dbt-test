@@ -28,4 +28,3 @@ models:
             description: "Actor Last Name"
           - name: count
             description: "Total N of Films"
-            type: smallint
